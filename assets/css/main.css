@@ -206,6 +206,11 @@ ol li {
     text-align: justify;
     letter-spacing: 0.5px;
     font-weight: 400;
+   
+}
+.aboutContent{
+    position: relative;
+    left: 140px;
 }
 
 .patner {
@@ -1009,6 +1014,62 @@ a.back-to-top:focus {
         justify-content: center;
         align-items: center;
     }
+    .aboutContent{
+        position: relative;
+        left: 0;
+        padding: 20px;
+    }
+    #headingThree .header-title{
+        margin-right: 30px;
+    }
+    #headingThree .header-title.collapsed:after{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    #headingFour .header-title{
+        margin-right: 30px;
+    }
+    #headingFour .header-title.collapsed:after{
+        position: relative;
+        top: 30px;
+    }
+    .about-images img{
+        width: 500px;
+    }
+    .about-images .code8Logo{
+        width:100px;
+    }
+    .about-images .tezosLogo{
+        width:130px;
+    }
+    .about-images .cLogo{
+        width:450px;
+        padding: 20px;
+    }
+    .queries p{
+        font-size: 0px;
+    }
+    .footer-area{
+        height: 200px;
+    }
+    .footer-area .code8XTezos{
+        position: relative;
+        bottom: 70px;
+        right: 40px;
+    }
+    .footer-area .queries{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 17rem;
+        top: 20px;
+        font-size: 20px;
+    }
+    .footer-area .queries .mail{
+        position: relative;
+        left: 10px;
+    }
+
 }
 
 .hero-img-section {
