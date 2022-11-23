@@ -1,0 +1,51 @@
+https://tezosindia.codeate.in/assets/logo/code8Logo.svg
+
+<div class="pb-10 md:pb-4" style="background:linear-gradient(288.22deg, rgba(159, 50, 159, 0.7) -1.47%, rgba(17, 97, 254, 0.25) 30%, rgba(17, 97, 254, 0) 42.29%)">
+    <div class="flex flex-col lg:mx-auto" style="max-width:1600px;min-height:29rem">
+        <div class="h-24"></div>
+        <div class="w-11/12 m-auto h-fit-content md:self-center lg:w-10/12">
+            <div class="pb-6 w-full md:max-w-50% md:m-0 m-auto">
+                <h1 class="text-white header">Tezos Visual Identity Overview</h1>
+            </div>
+            <div class="flex flex-col md:grid md:grid-cols-2">
+                <p class="max-w-screen-sm pb-6 text-white md:w-9/12 md:w-7/12 
+    md:m-0 m-auto">Tezos is the product of many organizations and individuals across the globe working together on an open-source project. Use this guide as a starting point when making branded materials.</p>
+                <div class="flex flex-col justify-start h-fit-content md:px-2 md:h-full">
+                    <div class="inline-flex my-0.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 h-6 -mb-px false" style="color:#0f62ff"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <a
+                            href="#logo-library" class="text-white font-gt-light underline mx-1">Logo Library</a>
+                    </div>
+                    <div class="inline-flex my-0.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 h-6 -mb-px false" style="color:#0f62ff"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <a
+                            href="#colors" class="text-white font-gt-light underline mx-1">Colors</a>
+                    </div>
+                    <div class="inline-flex my-0.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 h-6 -mb-px false" style="color:#0f62ff"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <a
+                            href="#gradient-use" class="text-white font-gt-light underline mx-1">Gradient Use</a>
+                    </div>
+                    <div class="inline-flex my-0.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 h-6 -mb-px false" style="color:#0f62ff"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <a
+                            href="#typeface" class="text-white font-gt-light underline mx-1">Typeface</a>
+                    </div>
+                    <div class="inline-flex my-0.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 h-6 -mb-px false" style="color:#0f62ff"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <a
+                            href="#visual-identity-library" class="text-white font-gt-light underline mx-1">Visual Identity Library</a>
+                    </div>
+                    <div class="inline-flex my-0.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 h-6 -mb-px false" style="color:#0f62ff"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        <a
+                            href="#illustration-library" class="text-white font-gt-light underline mx-1">Illustration Library</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+</div>
+
+
+assets/img/background/bg5.jpg
+
+
+Tezindia::
+blue color font
+#284B7E
