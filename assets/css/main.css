@@ -40,11 +40,12 @@ a {
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  color: #fff;
 }
 
 a:hover {
   text-decoration: none;
-  color: #87c0ff;
+  color: #005bc2;
 }
 
 a a:focus {
@@ -120,7 +121,7 @@ ol li {
 
 .hero-img {
   padding: 40px;
-  margin-left: -94px;
+  margin-left: -194px;
 }
 
 .hero-img img {
@@ -732,7 +733,7 @@ a.back-to-top:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 6rem;
+  padding: 12px 6rem;
   width: 100%;
 }
 
@@ -1095,8 +1096,8 @@ a.back-to-top:focus {
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 17rem;
-    top: 20px;
+    right: 18rem;
+    top: 8px;
     font-size: 20px;
   }
   .footer-area .queries .mail {
@@ -1453,14 +1454,14 @@ a.back-to-top:focus {
 
 .accordion .header-title {
   position: relative;
-  left: 2rem;
+  left: 0rem;
 }
 
 .accordion .header-title:after {
   /* font-family: "LineIcons"; */
   content: "⬆️";
   position: absolute;
-  right: 3rem;
+  right: 10px;
   color: rgb(255, 255, 255);
   top: 50%;
   line-height: 1;
@@ -2104,7 +2105,7 @@ a.back-to-top:focus {
 
 .link {
   color: #fff;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   margin-left: -3rem;
   text-underline-offset: 3px;
 }
@@ -2120,7 +2121,7 @@ a.back-to-top:focus {
 
 .footer-area {
   background: #c80695;
-  padding: 0 5rem;
+  padding: 0 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2435,6 +2436,10 @@ a.back-to-top:focus {
   width: 650px;
   position: relative;
   right: 60px;
+}
+
+.cLogo {
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 500px) {
