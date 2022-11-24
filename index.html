@@ -355,52 +355,44 @@
 
             <!-- New Accordian -->
             <div class="schedule-accordion">
-                <div class="schedule-sidebar">
-                    <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab"
-                        aria-controls="monday" aria-expanded="true">
-                        <div id="inagural" class="sidebar-card">
+                <div class="schedule-sidebar tab">
+                    <a class="tablinks" onclick="openTab(event, 'Inaguration')" id="defaultOpen">
+                        <div class="sidebar-card">
                             <p class="sidebar-title">Inaugural Session</p>
                             <p class="sidebar-date">14th Jan : 10.00 AM - 12.30 PM</p>
                         </div>
                     </a>
-
-                    <a class="nav-link active" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab"
-                        aria-controls="tuesday" aria-expanded="true">
+                    <a class="tablinks" onclick="openTab(event, 'Week1')">
                         <div class="sidebar-card">
                             <p class="sidebar-title">Week 1</p>
                             <p class="sidebar-date">From: 15th Jan </p>
                         </div>
                     </a>
-                    <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab"
-                        aria-controls="monday" aria-expanded="true">
+                    <a class="tablinks" onclick="openTab(event, 'Week2')">
                         <div class="sidebar-card">
                             <p class="sidebar-title">Week 2</p>
                             <p class="sidebar-date">From: 22nd Jan </p>
                         </div>
                     </a>
-                    <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab"
-                        aria-controls="monday" aria-expanded="true">
+                    <a class="tablinks" onclick="openTab(event, 'Week3')">
                         <div class="sidebar-card">
                             <p class="sidebar-title">Week 3</p>
                             <p class="sidebar-date">From: 29th Jan </p>
                         </div>
                     </a>
-                    <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab"
-                        aria-controls="monday" aria-expanded="true">
+                    <a class="tablinks" onclick="openTab(event, 'Week4')">
                         <div class="sidebar-card">
                             <p class="sidebar-title">Week 4</p>
                             <p class="sidebar-date">From: 5th Feb</p>
                         </div>
                     </a>
-                    <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab"
-                        aria-controls="monday" aria-expanded="true">
+                    <a class="tablinks" onclick="openTab(event, 'Week5')">
                         <div class="sidebar-card">
                             <p class="sidebar-title">Week 5</p>
                             <p class="sidebar-date">From: 12th Feb</p>
                         </div>
                     </a>
-                    <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab"
-                        aria-controls="monday" aria-expanded="true">
+                    <a class="tablinks" onclick="openTab(event, 'Week6')">
                         <div class="sidebar-card">
                             <p class="sidebar-title">Week 6</p>
                             <p class="sidebar-date">From: 19th Feb </p>
@@ -408,7 +400,7 @@
                     </a>
                 </div>
 
-                <div class="schedule-main-content" id="monday" role="tabpanel" aria-labelledby="monday-tab">
+                <div class="schedule-main-content tabcontent" id="Inaguration">
                     <div class="main-card ">
                         <div id="headingOne">
                             <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne"
@@ -427,57 +419,448 @@
                             <div class="card-body">
                                 <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites
                                     consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                                <div class="location">
+                                <!-- <div class="location">
                                     <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
-                    <div class="main-card">
-                        <div id="headingTwo">
-                            <div class="collapsed card-header" aria-expanded="false" aria-controls="collapseOne">
-                                <div class="images-box">
-                                    <img class="img-fluid"
-                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
-                                </div>
-                                <span class="time">10am - 12:30pm</span>
-                                <h4>Web Design Principles and Best Practices</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-card">
-                        <div id="headingThree">
-                            <div class="collapsed card-header" aria-expanded="false" aria-controls="collapseOne">
-                                <div class="images-box">
-                                    <img class="img-fluid"
-                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
-                                </div>
-                                <span class="time">10am - 12:30pm</span>
-                                <h4>Web Design Principles and Best Practices</h4>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="main-card">
-                        <div id="headingTfour">
-                            <div class="collapsed card-header" aria-expanded="false" aria-controls="collapseOne">
-                                <div class="images-box">
-                                    <img class="img-fluid"
-                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
-                                </div>
-                                <span class="time">10am - 12:30pm</span>
-                                <h4>Web Design Principles and Best Practices</h4>
-                            </div>
-                        </div>
-
-                    </div>
-
-
                 </div>
 
+                <div class="schedule-main-content tabcontent" id="Week1">
+                    <div class="main-card ">
+                        <div id="headingOne">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#1"
+                                aria-expanded="false" aria-controls="1">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <!-- <span class="time">10am - 12:30pm</span> -->
+                                <h4>Cryptography</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Asymmetric Encryption</p>
+                                <p>Symmetric Encryption</p>
+                                <p>Digital Signature</p>
+                                <p>Hashing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#2"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <!-- <span class="time">20am - 22:30pm</span> -->
+                                <h4>Blockchain</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Composition of Blockchain</p>
+                                <p>Crypto Wallter</p>
+                                <p>Indtroduction to Blockchain</p>
+                                <p>P2P Network</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingThree">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#3"
+                                aria-expanded="false" aria-controls="3">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Consensus Mechanism</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Liquid Proof of Stake</p>
+                                <p>Proof of Stake</p>
+                                <p>Proof of Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingFour">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#4"
+                                aria-expanded="false" aria-controls="4">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Smart Contracts</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="4" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Gas</p>
+                                <p>Smart Contracts</p>
+                                <p>dApps</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card">
+                        <div id="headingFive">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#5"
+                                aria-expanded="false" aria-controls="5">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Blockchain and Smart Contracts - Exam</h4>
+                                <h5 class="name">Assignment</h5>
+                            </div>
+                        </div>
+                        <!-- <div id="5" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Gas</p>
+                                <p>Smart Contracts</p>
+                                <p>dApps</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
 
+                <div class="schedule-main-content tabcontent" id="Week2">
+                    <div class="main-card">
+                        <div id="headingOne">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#TezosBlockchain"
+                                aria-expanded="false" aria-controls="1">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Tezos Blockchain</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="TezosBlockchain" class="collapse" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Explorers</p>
+                                <p>Temple Wallet</p>
+                                <p>Tezos Features</p>
+                                <p>Tezos Terminology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#SmartPy"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>SmartPy</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="SmartPy" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Data Types</p>
+                                <p>Entry-Points</p>
+                                <p>Minimal Contract</p>
+                                <p>Storage</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingThree">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#SmartPy-project"
+                                aria-expanded="false" aria-controls="3">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>SmartPy - Mini Project</h4>
+                                <h5 class="name">Project</h5>
+                            </div>
+                        </div>
+                        <!-- <div id="3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Liquid Proof of Stake</p>
+                                <p>Proof of Stake</p>
+                                <p>Proof of Work</p>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingFour">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#tezos-smartpy"
+                                aria-expanded="false" aria-controls="4">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Tezos and SmartPy - Exam</h4>
+                                <h5 class="name">Assignment</h5>
+                            </div>
+                        </div>
+                        <!-- <div id="4" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Gas</p>
+                                <p>Smart Contracts</p>
+                                <p>dApps</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="schedule-main-content tabcontent" id="Week3">
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Tezos-Dev-Ecosystem"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Tezos Dev Ecosystem</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="Tezos-Dev-Ecosystem" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Dev Portal</p>
+                                <p>Faucets</p>
+                                <p>Open Tezos</p>
+                                <p>TZIPs</p>
+                                <p>Testnets</p>
+                                <p>Tezos Agora</p>
+                                <p>Tezos StackExchange</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Taquito</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="Taquito" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Beacon Walle</p>
+                                <p>Temple Wallet</p>
+                                <p>Taquito Docs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Taquito - Mini Project Integration</h4>
+                                <h5 class="name">Project</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Taquito - Exam</h4>
+                                <h5 class="name">Assignment</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-main-content tabcontent" id="Week4">
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse"
+                                data-target="#Token-Standards-on-Tezos" aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Token Standards on Tezos</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="Token-Standards-on-Tezos" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <p>TZIP-12</p>
+                                <p>TZIP-7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#FA1.2"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>FA1.2</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="FA1.2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Alowances</p>
+                                <p>Fungible</p>
+                                <p>Tokens</p>
+                                <p>IP-16</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#FA2"
+                                aria-expanded="false" aria-controls="FA2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>FA2</h4>
+                                <h5 class="name">Lesson</h5>
+                            </div>
+                        </div>
+                        <div id="FA2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p> NFTs </p>
+                                <p> Operators</p>
+                                <p> TZIP-21</p>
+                                <p> TZIP-16</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>FA1.2 and FA2 Mini Project</h4>
+                                <h5 class="name">Project</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>FA1.2 and FA2 - Exam</h4>
+                                <h5 class="name">Assignment</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>FA2 in Detail</h4>
+                                <h5 class="name">NFT Track</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>IPFS</h4>
+                                <h5 class="name">NFT Track</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>NFT Space Terminologies</h4>
+                                <h5 class="name">NFT Track</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Airdrops</h4>
+                                <h5 class="name">NFT Track</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>NFT Marketplace</h4>
+                                <h5 class="name">NFT Track</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card ">
+                        <div id="headingTwo">
+                            <div class="collapsed card-header" data-toggle="collapse" data-target="#Taquito"
+                                aria-expanded="false" aria-controls="2">
+                                <div class="images-box">
+                                    <img class="img-fluid"
+                                        src="https://tezosindia.codeate.in/assets/img/speakers/speaker1.jpeg" alt="">
+                                </div>
+                                <h4>Fungible Coins</h4>
+                                <h5 class="name">Defi Track</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
     </section>
     <!-- Schedule Section End -->
@@ -904,6 +1287,7 @@
     </a>
 
 
+    <script src="./assets/js/schedule.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-min.js "></script>

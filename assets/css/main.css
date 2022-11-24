@@ -295,6 +295,7 @@ ol li {
   display: grid;
   grid-template-columns: 1fr 6fr;
   gap: 2rem;
+  padding: 0 10rem;
 }
 
 .schedule-main-content {
@@ -1355,6 +1356,72 @@ a.back-to-top:focus {
 
 /* Schedule Area */
 
+/* Schedule Tabs Start */
+
+.tab a.active .sidebar-card {
+  background-color: #ffff;
+}
+.tab a.active .sidebar-title {
+  color: #b437b9;
+}
+.tab a.active .sidebar-date {
+  color: #b437b9;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 500ms;
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0rem;
+  padding: 0;
+}
+.card-body p:first-child {
+  margin-left: -12px;
+}
+
+.card-body p {
+  padding: 5px 12px !important;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  min-width: fit-content;
+}
+.card-body p:hover {
+  padding: 5px 12px;
+  border-radius: 50px;
+  background: rgb(241, 46, 241);
+}
+
+@media screen and (max-width: 700px) {
+  .schedule-accordion {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0.1;
+    translate: 0 10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0px;
+  }
+}
+
+/* Schedule Tab End */
+
 .schedule {
   /* margin: 0 5rem; */
 }
@@ -1434,15 +1501,15 @@ a.back-to-top:focus {
 }
 
 .schedule .show .card-body {
-  background: #294c7f;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .schedule .card-header {
   border: none;
   cursor: pointer;
   background: #fff;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
 }
 
 .schedule .card-header .images-box {
@@ -1479,9 +1546,9 @@ a.back-to-top:focus {
 }
 
 .schedule .card-body {
-  padding: 15px 70px 15px 110px;
+  /* padding: 15px 70px 15px 110px; */
   background: #fff;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
 }
 
 .schedule .card-body .location {
