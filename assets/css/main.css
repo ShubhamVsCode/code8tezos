@@ -1654,6 +1654,12 @@ a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
+@media screen and (max-width: 500px) {
+  .services-item .icon img {
+    right: 106px;
+  }
+}
+
 .services-item .services-content h3 {
   font-size: 20px;
   letter-spacing: 0.5px;
