@@ -167,7 +167,7 @@ ol li {
 }
 
 .faq-section {
-  padding: 100px;
+  padding: 6rem 100px;
 }
 
 .about-container {
@@ -203,7 +203,7 @@ ol li {
   margin-bottom: 1rem;
   font-weight: 700;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 .mt-10 {
@@ -225,7 +225,7 @@ ol li {
   align-items: center;
   justify-content: center;
   gap: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 
 .about-content {
@@ -1038,6 +1038,15 @@ a.back-to-top:focus {
 }
 
 @media screen and (max-width: 768px) {
+  .who-section {
+    flex-direction: column;
+    padding: 0 1rem !important;
+    gap: 2rem !important;
+  }
+  .who-section-card {
+    /* width: 300px; */
+  }
+
   .aboutContent {
     flex-direction: column;
     gap: 3rem;
@@ -1563,7 +1572,7 @@ a.back-to-top:focus {
 }
 
 #who {
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 #who h1 {
   padding-bottom: 1rem;
@@ -1577,8 +1586,9 @@ a.back-to-top:focus {
   padding: 0 10rem;
 }
 .who-section-card {
-  width: 500px;
+  /* width: 500px; */
   color: #fff;
+  text-align: justify;
 }
 .who-section-card a {
   font-size: 1.6rem;
@@ -1587,7 +1597,7 @@ a.back-to-top:focus {
 .who-content {
   margin: 1rem 0;
   font-size: 1.1rem;
-  text-justify: inter-ideograph;
+  text-justify: distribute;
 }
 
 .padding-none {
