@@ -295,7 +295,7 @@ ol li {
   display: grid;
   grid-template-columns: 1fr 6fr;
   gap: 2rem;
-  padding: 0 10rem;
+  padding: 0 4rem;
 }
 
 .schedule-main-content {
@@ -1403,9 +1403,30 @@ a.back-to-top:focus {
 @media screen and (max-width: 700px) {
   .schedule-accordion {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
     padding: 0 1rem;
+  }
+  .schedule {
+    padding: 1rem;
+  }
+  .schedule-sidebar {
+    align-items: center;
+  }
+  .main-card {
+    width: 300px;
+    margin: auto;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+  .card-body p:first-child {
+    margin-left: 0;
+  }
+  .schedule .card-body {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -1520,7 +1541,8 @@ a.back-to-top:focus {
 }
 
 .schedule .card-header .images-box img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  width: 50px;
 }
 
 .schedule .card-header .time {
@@ -1539,8 +1561,8 @@ a.back-to-top:focus {
 .schedule .card-header .name {
   position: relative;
   font-size: 14px;
-  color: #777777;
-  font-weight: 500;
+  color: #7634d2;
+  font-weight: 600;
   display: inline-block;
   margin-bottom: 5px;
 }
