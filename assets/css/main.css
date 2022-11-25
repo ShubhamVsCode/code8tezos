@@ -2374,8 +2374,7 @@ a.back-to-top:focus {
   display: block;
   text-align: center;
   font-size: 22px;
-  position: relative;
-  bottom: 5px;
+  margin-right: 5px;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
