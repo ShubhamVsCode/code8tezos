@@ -2294,7 +2294,6 @@ a.back-to-top:focus {
   background: #b437b9;
   padding: 0 4rem;
   display: flex;
-  height: 100px;
   justify-content: space-between;
   align-items: center;
 }
