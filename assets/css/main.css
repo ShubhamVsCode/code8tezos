@@ -1399,7 +1399,35 @@ a.back-to-top:focus {
   border-radius: 50px;
   background: rgb(241, 46, 241);
 }
+@media only screen and (max-width: 600px) {
+  .schedule-sidebar {
+    flex-direction: row;
+    gap: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sidebar-card.first{
+    width: 82vw;
+  }
+  .sidebar-card.first:hover{
+    width: 82vw;
+  }
+  .sidebar-card{
+    background: #e928e9c5;
+    border-radius: 0 1rem 0 0;
+    padding: 0.5rem;
+    width: 40vw;
+    color: #fff;
+  }
+  .sidebar-card:hover {
+    background: #c605c6c5;
+    border-radius: 0 1rem 0 0;
+    padding: 0.5rem;
+    width: 40vw;
+    color: #fff;
+  }
 
+}
 @media screen and (max-width: 700px) {
   .schedule-accordion {
     display: grid;
