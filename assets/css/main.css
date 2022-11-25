@@ -550,7 +550,12 @@ ol li {
 .btn-header {
   border-radius: 50px;
 }
+ul .about-btn{
+  list-style: none;
+  position: relative;
+  right: 20px;
 
+}
 .nav-btn {
   position: relative;
   left: 10px;
@@ -801,6 +806,12 @@ a.back-to-top:focus {
   .page-scroll {
     color: rgb(248, 0, 244);
     font-weight: bold;
+  }
+  #patner{
+    display: none;
+  }
+  #mentors{
+    display: none;
   }
 }
 
