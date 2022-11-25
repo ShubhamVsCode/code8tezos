@@ -1583,7 +1583,18 @@ a.back-to-top:focus {
   margin-right: 5px;
 }
 
-
+.accordion{
+  background: transparent;
+}
+.accordion .accordion-item{
+  background: transparent;
+  color: #fff;
+}
+.accordion .accordion-item .accordion-header .accordion-button{
+  background: transparent !important;
+  border: 2px solid #fff;
+  color: #fff;
+}
 
 /* Services Item */
 
