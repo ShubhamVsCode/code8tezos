@@ -1172,21 +1172,29 @@ a.back-to-top:focus {
     height: 200px;
   }
   .footer-area .code8XTezos {
-    position: relative;
+    /* position: relative;
     bottom: 70px;
-    right: 40px;
+    right: 40px; */
   }
   .footer-area .queries {
     display: flex;
-    flex-direction: column;
-    position: relative;
-    right: 18rem;
-    top: 8px;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* position: relative; */
+    /* right: 18rem; */
+    /* top: 8px; */
     font-size: 20px;
   }
   .footer-area .queries .mail {
     position: relative;
     left: 10px;
+  }
+  .hq{
+    height: 20px;
+  }
+  .footer-social {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -2356,7 +2364,7 @@ a.back-to-top:focus {
   color: #fff;
   line-height: 20px;
   margin: 0;
-  padding-right: 50px;
+  padding-right: 0;
 }
 
 .footer-area ul li a {
@@ -2684,8 +2692,8 @@ a.back-to-top:focus {
     margin-right: -15px !important;
   }
   .footer-area {
-    padding-top: 50px;
-  }
+    display: grid;
+    place-content: center;  }
 }
 
 /* Pricing Ticket */
