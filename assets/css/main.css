@@ -550,7 +550,12 @@ ol li {
 .btn-header {
   border-radius: 50px;
 }
+ul .about-btn{
+  list-style: none;
+  position: relative;
+  right: 20px;
 
+}
 .nav-btn {
   position: relative;
   left: 10px;
@@ -801,6 +806,12 @@ a.back-to-top:focus {
   .page-scroll {
     color: rgb(248, 0, 244);
     font-weight: bold;
+  }
+  #patner{
+    display: none;
+  }
+  #mentors{
+    display: none;
   }
 }
 
@@ -1611,75 +1622,17 @@ a.back-to-top:focus {
   margin-right: 5px;
 }
 
-.accordion .card {
-  border-radius: 0px;
-  margin-bottom: -2px;
-}
-
-.accordion .header-title {
-  position: relative;
-  left: 0rem;
-}
-
-.accordion .header-title:after {
-  /* font-family: "LineIcons"; */
-  content: "⬆️";
-  position: absolute;
-  right: 10px;
-  color: rgb(255, 255, 255);
-  top: 50%;
-  line-height: 1;
-  padding: 0px 5px;
-  margin-top: -7px;
-}
-
-.accordion .collapsed:after {
-  content: "⬇️";
-}
-
-.accordion {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.accordion .card {
+.accordion{
   background: transparent;
-  cursor: pointer;
-  padding: 0;
 }
-
-.accordion .card-header {
+.accordion .accordion-item{
   background: transparent;
-  cursor: pointer;
-  padding: 0;
+  color: #fff;
+}
+.accordion .accordion-item .accordion-header .accordion-button{
+  background: transparent !important;
   border: 2px solid #fff;
   color: #fff;
-  padding: 20px 20px;
-}
-
-.accordion .card-body {
-  background: transparent;
-  cursor: pointer;
-  padding: 0;
-  border: none;
-  color: #fff;
-  padding: 20px 20px;
-}
-
-.accordion .card-header i {
-  color: #284b7e;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  line-height: 40px;
-  text-align: center;
-  margin-right: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.accordion .card-body {
-  padding-left: 56px;
 }
 
 /* Services Item */
@@ -2396,15 +2349,12 @@ a.back-to-top:focus {
 }
 
 .footer-area .footer-social li a {
-  color: #000;
-  background: #fff;
+  color: #fff;
   width: 35px;
   height: 35px;
-  line-height: 35px;
   display: block;
   text-align: center;
-  border-radius: 4px;
-  font-size: 15px;
+  font-size: 22px;
   margin-right: 5px;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -2413,7 +2363,7 @@ a.back-to-top:focus {
 }
 
 .footer-area .footer-social li a:hover {
-  color: #fff;
+  color: #005bc2;
 }
 
 .footer-area .footer-social li .facebook:hover {
