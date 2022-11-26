@@ -138,6 +138,7 @@ header .container-fluid .row {
   width: 420px;
   position: relative;
   float: right;
+  bottom: 50px;
 }
 
 .hero-heading {
@@ -182,6 +183,9 @@ header .container-fluid .row {
     font-size: 20px;
   }
   .hero-img{
+    display: none;
+  }
+  #who{
     display: none;
   }
 }
@@ -1200,6 +1204,7 @@ a.back-to-top:focus {
 
 .hero-img-section {
   position: relative;
+  
 }
 
 .hero-section-widgets {
