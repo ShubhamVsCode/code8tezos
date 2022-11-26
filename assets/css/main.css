@@ -78,7 +78,13 @@ ol li {
   background-size: cover; */
 
 /* } */
-
+header {
+  height: 100vh;
+}
+header .container-fluid .row {
+  justify-content: space-between;
+    align-items: center;
+}
 .hero {
   padding: 100px;
   position: relative;
@@ -103,32 +109,35 @@ ol li {
   font-weight: 400;
   /* font-family: "Lato", sans-serif; */
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 1.2vw;
 }
 
 .hero-text h1 {
-  font-size: 60px;
+  font-size: 3.8vw;
 }
 
-.hero-text a {
+.hero-text .buttons a{
   background: #e928e9;
-  margin-top: 30px;
+  margin: 10px 15px 0 0 ;
 }
 
 .hero-text h1 span {
   color: #e928e9;
 }
+.hero-text p span {
+  line-height: 2.5;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
 
 .hero-img {
-  padding: 40px;
-  margin-left: -194px;
+  padding: 40px 0;
 }
 
 .hero-img img {
-  width: 350px;
+  width: 420px;
   position: relative;
-  left: 230px;
-  top: 136px;
+  float: right;
 }
 
 .hero-heading {
@@ -159,6 +168,22 @@ ol li {
   top: -14px;
   width: 100%;
   text-align: center;
+}
+
+@media screen and (max-width: 500px)  {
+  .hero-text h1{
+    font-size: 32px;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
+
+  .hero-text p span {
+    font-size: 20px;
+  }
+  .hero-img{
+    display: none;
+  }
 }
 
 /* Shubham */
