@@ -79,11 +79,11 @@ ol li {
 
 /* } */
 header {
-  height: 100vh;
+  /* height: 100vh; */
 }
 header .container-fluid .row {
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 .hero {
   padding: 100px;
@@ -116,9 +116,9 @@ header .container-fluid .row {
   font-size: 3.8vw;
 }
 
-.hero-text .buttons a{
+.hero-text .buttons a {
   background: #e928e9;
-  margin: 10px 15px 0 0 ;
+  margin: 10px 15px 0 0;
 }
 
 .hero-text h1 span {
@@ -171,8 +171,8 @@ header .container-fluid .row {
   text-align: center;
 }
 
-@media screen and (max-width: 500px)  {
-  .hero-text h1{
+@media screen and (max-width: 500px) {
+  .hero-text h1 {
     font-size: 32px;
   }
   .hero-text p {
@@ -182,10 +182,10 @@ header .container-fluid .row {
   .hero-text p span {
     font-size: 20px;
   }
-  .hero-img{
+  .hero-img {
     display: none;
   }
-  #who{
+  #who {
     display: none;
   }
 }
@@ -232,7 +232,7 @@ header .container-fluid .row {
   margin-bottom: 1rem;
   font-weight: 700;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 .mt-10 {
@@ -247,6 +247,14 @@ header .container-fluid .row {
   letter-spacing: 0.5px;
   font-weight: 400;
 }
+/* .about-content :nth-child(3) {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: left;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+} */
 .aboutContent {
   /* position: relative; */
   /* left: 140px; */
@@ -579,11 +587,10 @@ header .container-fluid .row {
 .btn-header {
   border-radius: 50px;
 }
-ul .about-btn{
+ul .about-btn {
   list-style: none;
   position: relative;
   right: 20px;
-
 }
 .nav-btn {
   position: relative;
@@ -814,8 +821,10 @@ a.back-to-top:focus {
     /* width: 100%; */
   }
   .logo {
-    position: absolute;
-    top: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
   }
   .hero {
     padding: 1rem;
@@ -836,10 +845,10 @@ a.back-to-top:focus {
     color: rgb(248, 0, 244);
     font-weight: bold;
   }
-  #patner{
+  #patner {
     display: none;
   }
-  #mentors{
+  #mentors {
     display: none;
   }
 }
@@ -1058,6 +1067,14 @@ a.back-to-top:focus {
   background: #284b7e;
 }
 
+.womeninblockchain {
+  display: flex;
+  align-items: center;
+  height: 100% !important;
+  background-color: #000;
+  border-radius: 10px;
+}
+
 /* only small tablets */
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1174,6 +1191,7 @@ a.back-to-top:focus {
   }
   .footer-area {
     height: 200px;
+    margin-top: 50px;
   }
   .footer-area .code8XTezos {
     /* position: relative;
@@ -1193,7 +1211,7 @@ a.back-to-top:focus {
     position: relative;
     left: 10px;
   }
-  .hq{
+  .hq {
     height: 20px;
   }
   .footer-social {
@@ -1204,7 +1222,6 @@ a.back-to-top:focus {
 
 .hero-img-section {
   position: relative;
-  
 }
 
 .hero-section-widgets {
@@ -1455,13 +1472,13 @@ a.back-to-top:focus {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .sidebar-card.first{
+  .sidebar-card.first {
     width: 82vw;
   }
-  .sidebar-card.first:hover{
+  .sidebar-card.first:hover {
     width: 82vw;
   }
-  .sidebar-card{
+  .sidebar-card {
     background: #e928e9c5;
     border-radius: 0 1rem 0 0;
     padding: 0.5rem;
@@ -1475,7 +1492,6 @@ a.back-to-top:focus {
     width: 40vw;
     color: #fff;
   }
-
 }
 @media screen and (max-width: 700px) {
   .schedule-accordion {
@@ -1660,14 +1676,14 @@ a.back-to-top:focus {
   margin-right: 5px;
 }
 
-.accordion{
+.accordion {
   background: transparent;
 }
-.accordion .accordion-item{
+.accordion .accordion-item {
   background: transparent;
   color: #fff;
 }
-.accordion .accordion-item .accordion-header .accordion-button{
+.accordion .accordion-item .accordion-header .accordion-button {
   background: transparent !important;
   border: 2px solid #fff;
   color: #fff;
@@ -2643,7 +2659,8 @@ a.back-to-top:focus {
     padding: 10px 20px;
   }
   .hero-text {
-    padding-top: 120px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
 
   .hero-img {
@@ -2698,7 +2715,8 @@ a.back-to-top:focus {
   }
   .footer-area {
     display: grid;
-    place-content: center;  }
+    place-content: center;
+  }
 }
 
 /* Pricing Ticket */
