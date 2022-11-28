@@ -1700,7 +1700,7 @@ a.back-to-top:focus {
   padding-bottom: 6rem;
 }
 #who h1 {
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 
 .who-section {
@@ -2993,4 +2993,96 @@ a.back-to-top:focus {
     transform: scale(1.15);
     margin-top: 6px;
   }
+}
+
+/* Who are we section */
+
+figure {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 460px;
+  height: 320px;
+  padding: 20px 20px;
+  background-color: rgba(90, 90, 90, 0.144);
+  /* background-image: url("https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  border-radius: 0 3rem 0 0;
+  border: 2px solid white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+figure:before, figure:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+figure:after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+figure:hover {
+  background-size: 175%;
+}
+figure:hover:after {
+  z-index: 2;
+}
+
+figure.tez:hover:after{
+  content: url("../img/tez.png");
+  background-color: #e928e9;
+  color: white;
+}
+figure.code:hover:after{
+  content: url("../img/code8.png");
+  background-color: #e928e9;
+  color: white;
+}
+
+figure:hover .date {
+  bottom: -59px;
+}
+figure:hover figcaption {
+  transform: translateY(-110%);
+}
+
+figure figcaption {
+  color: white;
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  z-index: 1;
+}
+figure figcaption h4 {
+  margin: 0 0 18px;
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 2.2vw;
+  line-height: 1.35;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.7);
+}
+figure.tez figcaption h4 > span {
+  padding: 0 15px;
+  background-color: #e928e9;
+}
+figure.code figcaption h4 > span {
+  padding: 0 15px;
+  background-color: #e928e9;
+}
+figure figcaption p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.2vw;
 }
