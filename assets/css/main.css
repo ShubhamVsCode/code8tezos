@@ -3025,7 +3025,8 @@ figure {
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
 }
-figure:before, figure:after {
+figure:before,
+figure:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -3052,13 +3053,14 @@ figure:hover:after {
   z-index: 2;
 }
 
-figure.tez:hover:after{
+figure.tez:hover:after {
   content: url("../img/tez.png");
   background-color: #e928e9;
   color: white;
 }
-figure.code:hover:after{
-  content: url("../img/code8.png");
+figure.code:hover:after {
+  content: url("../img/herosection/LOGO\ CODE8\ WHITE (1).png");
+  /* width: 150px; */
   background-color: #e928e9;
   color: white;
 }
