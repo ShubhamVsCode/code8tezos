@@ -701,6 +701,12 @@ a.back-to-top:focus {
   padding: 60px;
 }
 
+@media screen and (max-width: 500px) {
+  .section-padding {
+    padding: 30px;
+  }
+}
+
 .no-padding {
   padding: 0 !important;
 }
